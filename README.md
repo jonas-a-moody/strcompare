@@ -15,7 +15,7 @@ cmake --build build
 ## Usage
 Run the compiled binary: 
 ```bash
-./build/strcompare <str 1> <str 2>
+./build/strcompare [-i] <str 1> <str 2>
 ```
 
 **Example:**
@@ -28,7 +28,7 @@ Strings are NOT equal.
 
 ## Notes
 
-- Input is case sensitive
+- Input is case sensitive unless -i is used. 
 
 ## License
 
